@@ -1,0 +1,10 @@
+language = [],
+language.append('C')
+language.append('Java')
+language.append('JavaScript')
+language.append('Python')
+print(language)
+language.pop()
+print(language)
+print(language[0:4])
+print('Length=', len(language))
