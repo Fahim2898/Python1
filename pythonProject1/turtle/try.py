@@ -1,0 +1,22 @@
+import turtle as t
+t.bgcolor('blue')
+t.color('yellow')
+t.penup()
+t.goto(0, -200)
+t.pendown()
+t.begin_fill()
+t.circle(225)
+t.end_fill()
+t.penup()
+t.goto(0, 24)
+t.pendown()
+t.color('gold')
+t.begin_fill()
+for i in range(3):
+    t.right(120)
+    for i in range(3):
+        t.forward(200)
+        t.right(120)
+t.end_fill()
+t.hideturtle()
+t.done()

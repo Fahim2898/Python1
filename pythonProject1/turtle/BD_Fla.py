@@ -1,0 +1,23 @@
+
+import turtle as t
+window = t.Screen()
+window.title("BD Flag")
+
+t.color('green')
+t.begin_fill()
+t.forward(300)
+t.left(90)
+t.forward(180)
+t.left(90)
+t.forward(300)
+t.left(90)
+t.forward(180)
+t.left(90)
+t.end_fill()
+t.setpos(135, 33)
+t.color('red')
+t.begin_fill()
+t.circle(60)
+t.end_fill()
+t.hideturtle()
+t.done()
