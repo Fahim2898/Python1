@@ -1,18 +1,8 @@
-'''
-i = 2
-while i <= 100:
+i=1
+while (i<=10):
     print(i)
-    i = i + 2
-'''
-#2+4+6+8+________+n
-#num1 = int(input("Enter your lest Number:"))
-num1=100
-sum = 0
-i=2
-while i <= num1:
-    sum = sum +i
-    i = i+2
-print('Total= ', sum)
+    i=i+1
 
-
-
+k =[1,2,4,5,6,8,9,11]
+for j in k:
+    print(j)
