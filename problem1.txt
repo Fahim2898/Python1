@@ -1,0 +1,13 @@
+# Python Program to find largest number of the array
+
+list_number = []
+
+n = int(input("Enter number of elements : "))
+for i in range(0, n):
+    number = int(input())
+
+    list_number.append(number)
+print("Array= ", list_number)
+list_number.sort()
+
+print('Largest Number=', list_number[-1])

@@ -1,0 +1,6 @@
+# Python program to reverse the words of a string
+
+text = input("Enter Your Sentence:")
+a = text.split()
+a.reverse()
+print("Reverse Word= " + " ".join(a))

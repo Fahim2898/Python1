@@ -1,0 +1,17 @@
+# Python program to merge two files into a third file.
+
+file1 = file2 = ""
+
+txt = open('Fahim.txt', 'r')
+file1 = txt.read()
+
+txt = open('Fahim2.txt', 'r')
+file2 = txt.read()
+
+file1 += "\n"
+file1 += file2
+
+txt = open('Fahim3.txt', 'w')
+txt.write(file1)
+
+

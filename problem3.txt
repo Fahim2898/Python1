@@ -1,0 +1,7 @@
+# Python program to find if a string is palindrome or not
+
+text = input("Enter Your Text:")
+if text == text[::-1]:
+    print("Yes")
+else:
+    print("No")
